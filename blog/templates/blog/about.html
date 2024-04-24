@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+{%block title%}About Me{%endblock%}
+
+{% block body_block%}
+<p>Thanks for checking this out!!</p>
+{% if errMsg %}
+<h1> {{errMsg}} </h1>
+{% endif %}
+{% endblock %}
